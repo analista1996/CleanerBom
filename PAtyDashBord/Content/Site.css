@@ -1,0 +1,152 @@
+              body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.around{
+    width:180px;
+    height:150px;
+}
+/* The animation code */
+@keyframes example {
+    from {
+        width:140px;
+    }
+
+    to {
+        width:150px;
+    }
+}
+.img {
+    
+    position: relative;
+    background-color: transparent;
+    animation-name: example;
+    animation-duration: 0.3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count:infinite;
+  
+   
+}
+.about-img {
+    width: 57%;
+    height: 35%;
+}
+
+.right
+{
+    position:relative;
+    float:right;
+}
+.hr 
+{
+   
+}
+.ul 
+{
+    margin-bottom: 0px;
+    border-bottom-color: gold;
+    border-bottom-width: 4px;
+    
+    border-bottom-style: groove;
+    margin-top: 0px;
+   
+}
+li
+{
+    font-size:17px;
+}
+
+
+.collapse {
+    height:auto;
+}
+.es_div1 {
+    position: relative;
+    width: 100%;
+    height: 605px;
+    background: #DAE2DF;
+   
+}
+.es_Name {
+    /* Vector 1 */
+    position: center;
+    width: 151px;
+    height: 25px;
+    left: 0px;
+    top: 15px;
+    margin-top: 8px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.es_Current {
+    /* Rectangle 2 */
+    position: center;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 2px;
+    background: #090E77;
+   
+ 
+}
+.es_coming {
+    /* Rectangle 2 */
+    position: center;
+    width: 90%;
+    height: auto;
+    margin-left:5%;
+    left: 0px;
+    margin-top:2%;
+    background: #090E77;
+}
+.current {
+    width: 90%;
+    margin-top: 5%;
+    height: 180px;
+    background-color: #FBF6F6;
+    margin-left: 5%;
+  
+  
+}
+#pointer {
+    top: 10px;
+    width: 28%;
+    height: 35px;
+    position: relative;
+    background: white;
+    box-shadow: 7px 7px 8px 0px black;
+}
+
+    #pointer:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-left: 20px solid #090E77;
+        border-top: 14px solid transparent;
+        border-bottom: 20px solid transparent;
+  
+    }
+    

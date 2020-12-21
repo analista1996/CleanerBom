@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAtyDashBoard", "PAtyDashBord\PAtyDashBoard.csproj", "{80097403-861F-4EE0-9D7D-BB19DE29C909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAtyDashBoard.Tests", "PAtyDashBord.Tests\PAtyDashBoard.Tests.csproj", "{492B4160-927D-496B-830F-D4869BB6E5D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80097403-861F-4EE0-9D7D-BB19DE29C909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80097403-861F-4EE0-9D7D-BB19DE29C909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80097403-861F-4EE0-9D7D-BB19DE29C909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80097403-861F-4EE0-9D7D-BB19DE29C909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492B4160-927D-496B-830F-D4869BB6E5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492B4160-927D-496B-830F-D4869BB6E5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492B4160-927D-496B-830F-D4869BB6E5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492B4160-927D-496B-830F-D4869BB6E5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C37E909D-246F-46CA-A830-539E58E9AE56}
+	EndGlobalSection
+EndGlobal
